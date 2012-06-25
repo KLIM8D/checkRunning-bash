@@ -1,7 +1,9 @@
+#CheckRunning-bash
+
 A script I made for using the same mediakeys for 2 mediaplayers, in my case Spotify and Banshee.
 This is a very simple bash script, and can be runned from terminal or keybind with a parameter.
 
-Examples from my openbox rc.xml:
+###Examples from my openbox rc.xml:
     <keybind key="XF86AudioPlay">
       <action name="Execute">
         <execute>sh ~/Scripts/checkRunning.sh playpause</execute>
